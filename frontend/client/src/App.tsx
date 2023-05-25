@@ -13,7 +13,7 @@ function App() {
     }
     fetchHello();
   })
-
+  // API dynamique
   const getResult = async (e)=> {
    e.preventDefault();
    console.log(e);
@@ -29,7 +29,7 @@ function App() {
           <input type="number" name='number' id='number' />
           <br />
           <br />
-          <input type="submit" value="multiple de 2!"/>
+          <input type="submit" value=" Value x 2!"/>
         </form>
     </div>
   )

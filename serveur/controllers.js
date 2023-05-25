@@ -1,6 +1,6 @@
 module.exports.hello = (req, res)=> {
     //pour recuperer sur le front une reponse en forme json
-    res.json({message: "salut", message2:"coucou"});
+    res.json({message: "Votre resultat"});
 };
 module.exports.multiple = (req, res)=>{
     const nombre = parseInt(req.params.nb);
